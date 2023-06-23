@@ -1,4 +1,4 @@
-# asdf-azure-cli ![CI](https://github.com/itspngu/asdf-azure-cli/workflows/CI/badge.svg) ![Lint](https://github.com/itspngu/asdf-azure-cli/workflows/Lint/badge.svg)
+# asdf-azure-cli ![CI](https://github.com/EcoMind/asdf-azure-cli/workflows/CI/badge.svg) ![Lint](https://github.com/EcoMind/asdf-azure-cli/workflows/Lint/badge.svg)
 
 [azure-cli](https://github.com/Azure/azure-cli) plugin for the [asdf version manager](https://asdf-vm.com).
 
@@ -22,7 +22,7 @@ I stopped using asdf-vm and archived this repository. If you're using this plugi
 Plugin:
 
 ```shell_session
-$ asdf plugin-add azure-cli https://github.com/itspngu/asdf-azure-cli
+$ asdf plugin-add azure-cli https://github.com/EcoMind/asdf-azure-cli
 ```
 
 azure-cli:
