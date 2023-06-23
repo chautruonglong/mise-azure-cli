@@ -19,10 +19,10 @@ install() {
     )
   fi
 
-  if asdf list python ${REQ_PYTHON_VERSION}; then 
+  if asdf list python ${REQ_PYTHON_VERSION}; then
     echo "python ${REQ_PYTHON_VERSION} already installed"
     asdf local python ${REQ_PYTHON_VERSION}
-  else 
+  else
     asdf install python ${REQ_PYTHON_VERSION}
   fi
 
