@@ -10,7 +10,7 @@ list_all() {
   # in this file, so enjoy your auth header, I'll keep the function where it is :P
 
   curl -fsSL "https://pypi.org/simple/$(get_package_name)" |
-    sed -En -e "s;.*<a.*>$(get_package_name)-([0-9]+.[0-9]+.[0-9]+)-py3-none-any.whl</a.*;\1;p" |
+    sed -En -e "s;.*>$(get_package_name)-([0-9]+.[0-9]+.[0-9]+)-py3-none-any.whl</a.*;\1;p" |
     sort_versions | paste -sd ' ' -
 }
 
